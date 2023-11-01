@@ -4,7 +4,7 @@ const tic_tac_toe = {
     // ATTRIBUTES
     board: ['','','','','','','','','',],
     symbols: {
-                options: ['X','O'],
+                options: ['卐 ','✡'],
                 turn_index: 0,
                 change(){
                     this.turn_index = ( this.turn_index === 0 ? 1:0 );
